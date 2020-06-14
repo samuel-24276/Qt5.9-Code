@@ -19,10 +19,10 @@ samp4_3与samp4_1类似，只是Line Edit换成了SpinBox和DoubleSpinBox，二�
     ui->spinHex->setDisplayIntegerBase(16);
     ```
 
-- 4.设置显示的小数位数setDecimals(n)
+- 4.设置显示的小数位数setDecimals(n)  
     `ui->spinTotal->setDecimals(1);`
 
-- 5.设置单步数量setSingleStep(n)
+- 5.设置单步数量setSingleStep(n)  
     `ui->spinNum->setSingleStep(10);`
 
 

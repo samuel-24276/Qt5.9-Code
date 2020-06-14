@@ -11,5 +11,7 @@
     - [QString测试用例](./samp4_1)<br>
 - 2.[QString常用功能](./samp4_2/README.md)<br>
     - [QString常用功能测试用例](./samp4_2)<br>
-- 3.[SpinBox的使用](./samp4_3/README.md)<br>
-    - [SpinBox使用的测试用例](./samp4_3)<br>
+- 3.[QSpinBox的使用](./samp4_3/README.md)<br>
+    - [QSpinBox使用的测试用例](./samp4_3)<br>
+- 4.[其他数值输入和显示组件的使用](./samp4_4/README.md)<br>
+    - [其他数值输入和显示组件的测试用例](./samp4_4)<br>
