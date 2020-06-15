@@ -11,9 +11,11 @@
     - [QString测试用例](./samp4_1)<br>
 - 2.[QString常用功能](./samp4_2/README.md)<br>
     - [QString常用功能测试用例](./samp4_2)<br>
-- 3.[QSpinBox的使用](./samp4_3/README.md)<br>
-    - [QSpinBox使用的测试用例](./samp4_3)<br>
-- 4.[其他数值输入和显示组件的使用](./samp4_4/README.md)<br>
+- 3.[QSpinBox](./samp4_3/README.md)<br>
+    - [QSpinBox的测试用例](./samp4_3)<br>
+- 4.[其他数值输入和显示组件](./samp4_4/README.md)<br>
     - [其他数值输入和显示组件的测试用例](./samp4_4)<br>
-- 5.[时间日期组件与定时器的使用](./samp4_5/README.md)<br>
+- 5.[时间日期组件与定时器](./samp4_5/README.md)<br>
     - [时间日期组件与定时器的测试用例](./samp4_5)<br>
+- 6.[QComboBox和QPlainTextEdit](./samp4_6/README.md)<br>
+    - [QComboBox和QPlainTextEdit](./samp4_6)<br>
