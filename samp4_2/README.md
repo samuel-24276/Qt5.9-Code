@@ -13,7 +13,7 @@
     trimmed()去掉字符串首尾的空格，simplified()不仅去掉首尾的空格，中间连续的空格也用一个空格替换。无参数
 
 - 5.indexOf()和lastIndexOf()  
-    indexOf()原型为`int indexOf(const QString &str, int from = 0, Qt::CaseSensitivity cs = Qt::CaseSensitive) const`，功能是在自身字符串内查找参数字符串str出现的位置，参数from是开始查找的位置，cs参数指定是否区分大小写
+    indexOf()原型为`int indexOf(const QString &str, int from = 0, Qt::CaseSensitivity cs = Qt::CaseSensitive) const`，功能是在自身字符串内查找参数字符串str出现的位置，参数from是开始查找的位置，cs参数指定是否区分大小写。lastIndexOf()函数则是查找某个字符串最后出现的位置，如果查找'\\',需要使用转义字符\，即双反斜线。
 
 - 6.isNull()和isEmpty()  
     判断字符串是否为空，但对于空字符串"\0",isNull()返回false,而isEmpty()返回true。只有未赋值的字符串isNUll()才返回true，判断字符串内容是否为空，常用isEmpty()。无参数
