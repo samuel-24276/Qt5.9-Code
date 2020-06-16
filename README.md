@@ -18,4 +18,6 @@
 - 5.[时间日期组件与定时器](./samp4_5/README.md)<br>
     - [时间日期组件与定时器的测试用例](./samp4_5)<br>
 - 6.[QComboBox和QPlainTextEdit](./samp4_6/README.md)<br>
-    - [QComboBox和QPlainTextEdit](./samp4_6)<br>
+    - [QComboBox和QPlainTextEdit的测试用例](./samp4_6)<br>
+- 7.🔥[QListWidget和QToolButton](./samp4_7/README.md)<br>
+    - [QListWidget和QToolButton的测试用例](./samp4_7)<br>
