@@ -21,3 +21,8 @@
     - [QComboBox和QPlainTextEdit的测试用例](./samp4_6)<br>
 - 7.🔥[QListWidget和QToolButton](./samp4_7/README.md)<br>
     - [QListWidget和QToolButton的测试用例](./samp4_7)<br>
+
+## 13.多线程🔥
+
+- 1.[QThread使用](./samp13_1/README.md)<br>
+    - [QThread测试用例——掷色子](./samp13_1)<br>
