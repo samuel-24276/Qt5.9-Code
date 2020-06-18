@@ -26,3 +26,5 @@
 
 - 1.[QThread使用](./samp13_1/README.md)<br>
     - [QThread测试用例——掷色子](./samp13_1)<br>
+- 2.[QTcpSocket、QTcpServer、QUdpSocket使用](./samp13_chat/README.md)<br>
+    - [基于TCP/UDP的聊天程序](./samp13_chat)<br>
