@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/actSize.svg</file>
+        <file>img/addDir.svg</file>
+        <file>img/addFile.svg</file>
+        <file>img/delNode.svg</file>
+        <file>img/dir.svg</file>
+        <file>img/fitH.svg</file>
+        <file>img/fitW.svg</file>
+        <file>img/pic.svg</file>
+        <file>img/quit.svg</file>
+        <file>img/scanNode.svg</file>
+        <file>img/windowFloat.svg</file>
+        <file>img/windowSee.svg</file>
+        <file>img/zoomIn.svg</file>
+        <file>img/zoomOut.svg</file>
+    </qresource>
+</RCC>
