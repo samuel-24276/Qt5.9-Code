@@ -19,10 +19,12 @@
     - [时间日期组件与定时器的测试用例](./samp4_5)<br>
 - 6.[QComboBox和QPlainTextEdit](./samp4_6/README.md)<br>
     - [QComboBox和QPlainTextEdit的测试用例](./samp4_6)<br>
-- 7.🔥[QListWidget和QToolButton](./samp4_7/README.md)<br>
-    - [QListWidget和QToolButton的测试用例](./samp4_7)<br>
+- 7.🔥[QToolBox多分组窗口、QTabWidget多页面窗口、QListWidget列表项窗口和QToolButton](./samp4_7/README.md)<br>
+    - [QToolBox多分组窗口、QTabWidget多页面窗口、QListWidget列表项窗口和QToolButton的测试用例](./samp4_7)<br>
 - 8.🔥[QTreeWidget目录树控件和QDockWidget停靠区域组件](./samp4_8/README.md)<br>
     - [QTreeWidget和QDockWidget的测试用例](./samp4_8)<br>
+- 9.🔥[QTableWidget表格控件](./samp4_9/README.md)<br>
+    - [QTableWidget表格控件的测试用例](./samp4_9)<br>
 
 ## 13.多线程🔥
 
