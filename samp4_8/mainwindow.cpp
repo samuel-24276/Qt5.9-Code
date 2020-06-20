@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include<QDebug>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -247,10 +248,13 @@ void MainWindow::on_dockWidget_visibilityChanged(bool visible)
 {
     //停靠区可见性变化
     ui->actDockVisible->setChecked(visible);
+    qDebug()<<"可见性"<<visible;
 }
 
 void MainWindow::on_dockWidget_topLevelChanged(bool topLevel)
 {
     //停靠区浮动性变化
     ui->actDockFloat->setChecked(topLevel);
+
+    qDebug()<<"浮动性"<<topLevel;
 }

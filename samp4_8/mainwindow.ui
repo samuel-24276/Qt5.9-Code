@@ -26,7 +26,7 @@
          <x>0</x>
          <y>0</y>
          <width>321</width>
-         <height>220</height>
+         <height>211</height>
         </rect>
        </property>
        <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -54,6 +54,15 @@
    </property>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::AllToolBarAreas</set>
+   </property>
    <attribute name="toolBarArea">
     <enum>TopToolBarArea</enum>
    </attribute>
@@ -73,6 +82,7 @@
    <addaction name="actDockVisible"/>
    <addaction name="actQuit"/>
   </widget>
+  <widget class="QStatusBar" name="statusBar"/>
   <widget class="QDockWidget" name="dockWidget">
    <property name="allowedAreas">
     <set>Qt::LeftDockWidgetArea|Qt::RightDockWidgetArea</set>
@@ -114,8 +124,15 @@
     </layout>
    </widget>
   </widget>
-  <widget class="QStatusBar" name="statusBar"/>
   <action name="actAddFolder">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <activeon>:/img/addDir.svg</activeon>
+    </iconset>
+   </property>
    <property name="text">
     <string>添加目录</string>
    </property>
@@ -124,6 +141,10 @@
    </property>
   </action>
   <action name="actAddFiles">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/img/addFile.svg</normaloff>:/img/addFile.svg</iconset>
+   </property>
    <property name="text">
     <string>添加文件</string>
    </property>
@@ -132,6 +153,10 @@
    </property>
   </action>
   <action name="actZoomIn">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/img/zoomIn.svg</normaloff>:/img/zoomIn.svg</iconset>
+   </property>
    <property name="text">
     <string>放大</string>
    </property>
@@ -140,6 +165,10 @@
    </property>
   </action>
   <action name="actZoomOut">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/img/zoomOut.svg</normaloff>:/img/zoomOut.svg</iconset>
+   </property>
    <property name="text">
     <string>缩小</string>
    </property>
@@ -148,11 +177,19 @@
    </property>
   </action>
   <action name="actZoomRealSize">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/img/actSize.svg</normaloff>:/img/actSize.svg</iconset>
+   </property>
    <property name="text">
     <string>实际大小</string>
    </property>
   </action>
   <action name="actZoomFitW">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/img/fitW.svg</normaloff>:/img/fitW.svg</iconset>
+   </property>
    <property name="text">
     <string>适合宽度</string>
    </property>
@@ -161,16 +198,28 @@
    </property>
   </action>
   <action name="actDeleteItem">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/img/delNode.svg</normaloff>:/img/delNode.svg</iconset>
+   </property>
    <property name="text">
     <string>删除节点</string>
    </property>
   </action>
   <action name="actQuit">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/img/quit.svg</normaloff>:/img/quit.svg</iconset>
+   </property>
    <property name="text">
     <string>退出</string>
    </property>
   </action>
   <action name="actZoomFitH">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/img/fitH.svg</normaloff>:/img/fitH.svg</iconset>
+   </property>
    <property name="text">
     <string>适合高度</string>
    </property>
@@ -179,22 +228,36 @@
    </property>
   </action>
   <action name="actScanItems">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/img/scanNode.svg</normaloff>:/img/scanNode.svg</iconset>
+   </property>
    <property name="text">
     <string>遍历节点</string>
    </property>
   </action>
   <action name="actDockVisible">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/img/windowSee.svg</normaloff>:/img/windowSee.svg</iconset>
+   </property>
    <property name="text">
     <string>窗体可见</string>
    </property>
   </action>
   <action name="actDockFloat">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/img/pic.svg</normaloff>:/img/pic.svg</iconset>
+   </property>
    <property name="text">
     <string>窗体浮动</string>
    </property>
   </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
  <connections/>
 </ui>

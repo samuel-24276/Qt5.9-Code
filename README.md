@@ -21,6 +21,8 @@
     - [QComboBox和QPlainTextEdit的测试用例](./samp4_6)<br>
 - 7.🔥[QListWidget和QToolButton](./samp4_7/README.md)<br>
     - [QListWidget和QToolButton的测试用例](./samp4_7)<br>
+- 8.🔥[QTreeWidget目录树控件和QDockWidget停靠区域组件](./samp4_8/README.md)<br>
+    - [QTreeWidget和QDockWidget的测试用例](./samp4_8)<br>
 
 ## 13.多线程🔥
 
