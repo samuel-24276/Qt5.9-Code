@@ -26,6 +26,11 @@
 - 9.🔥[QTableWidget表格控件](./samp4_9/README.md)<br>
     - [QTableWidget表格控件的测试用例](./samp4_9)<br>
 
+## 5.Model/View结构
+
+- 1.🔥[Model/View结构](./samp5_1/README.md)<br>
+- 2.[QFileSystemModel的测试用例](./samp5_1)<br>
+
 ## 13.多线程🔥
 
 - 1.[QThread使用](./samp13_1/README.md)<br>
