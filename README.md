@@ -29,7 +29,9 @@
 ## 5.Model/View结构
 
 - 1.🔥[Model/View结构](./samp5_1/README.md)<br>
-- 2.[QFileSystemModel的测试用例](./samp5_1)<br>
+  - [QFileSystemModel的测试用例](./samp5_1)<br>
+- 2.[QFileSystemModel与QStringListModel数据模型](./samp5_2/README.md)<br>
+  - [QStringListModel的测试用例](./samp5_2)<br>
 
 ## 13.多线程🔥
 
