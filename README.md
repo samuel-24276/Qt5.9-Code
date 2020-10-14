@@ -33,6 +33,9 @@
 - 2.[QFileSystemModel与QStringListModel数据模型](./samp5_2/README.md)<br>
   - [QStringListModel的测试用例](./samp5_2)<br>
 
+- 3.[QStandardItemModel数据模型](./samp5_3/README.md)<br>
+  - [QStandardItemModel的测试用例](./samp5_3)<br>
+
 ## 13.多线程🔥
 
 - 1.[QThread使用](./samp13_1/README.md)<br>
