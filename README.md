@@ -42,3 +42,10 @@
     - [QThread测试用例——掷色子](./samp13_1)<br>
 - 2.[QTcpSocket、QTcpServer、QUdpSocket使用](./samp13_chat/README.md)<br>
     - [基于TCP/UDP的聊天程序](./samp13_chat)<br>
+
+## 14.QCustomPlot绘图和数据可视化库
+
+[QCustomPlot基本概念](./QCustomPlotExample/README.md)<br>
+
+- [QCustomPlot用例](./QCustomPlotExample)<br>
+
