@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookindex>
+	<entry term="poetry">
+		<page>2-16</page>
+		<page>31-35</page>
+		<page>21-29</page>
+	</entry>
+	<entry term="novel">
+		<entry term="mystery">
+			<page>54-59</page>
+			<page>60-68</page>
+		</entry>
+		<entry term="college">
+			<page>73-85</page>
+			<page>86-95</page>
+		</entry>
+	</entry>
+</bookindex>
