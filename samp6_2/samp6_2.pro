@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2020-12-01T14:57:23
+# Project created by QtCreator 2020-12-01T16:58:55
 #
 #-------------------------------------------------
 
@@ -25,10 +25,19 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        maindialog.cpp
+        mainwindow.cpp \
+    qwdialogsize.cpp \
+    qwdialoglocate.cpp \
+    qwdialogheaders.cpp
 
 HEADERS += \
-        maindialog.h
+        mainwindow.h \
+    qwdialogsize.h \
+    qwdialoglocate.h \
+    qwdialogheaders.h
 
 FORMS += \
-        maindialog.ui
+        mainwindow.ui \
+    qwdialogsize.ui \
+    qwdialoglocate.ui \
+    qwdialogheaders.ui

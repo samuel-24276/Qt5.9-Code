@@ -43,7 +43,7 @@
 - 2.🔥[XmlStreamerWriter](./XmlStreamerWriter/README.md)<br>
   - [XmlStreamerWriter的测试用例](./XmlStreamerWriter)<br>
 - 3.[自定义对话框及其调用](./samp6_2/README.md)<br>
-  - [XmlStreamerWriter的测试用例](./samp6_2)<br>
+  - [自定义对话框及其调用的测试用例](./samp6_2)<br>
 
 ## 13.多线程🔥
 
