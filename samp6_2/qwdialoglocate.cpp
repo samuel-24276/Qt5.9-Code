@@ -29,12 +29,14 @@ void QWDialogLocate::setSpinValue(int rowNo, int colNo)
 
 void QWDialogLocate::closeEvent(QCloseEvent *event)
 {
+    Q_UNUSED(event);
     // 窗口关闭事件，发射信号使actLocate能用
     emit changeActEnable(true);
 }
 
 void QWDialogLocate::showEvent(QShowEvent *event)
 {
+    Q_UNUSED(event);
     // 窗口显示事件，发射信号使actLocate不能用
     emit changeActEnable(false);
 }
